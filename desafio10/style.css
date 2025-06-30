@@ -1,0 +1,137 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+}
+
+@font-face{
+    font-family: 'iDroid';
+    src: url(idroid.otf) format('opentype');
+}
+
+h2, h3{
+    font-family: 'iDroid';
+}
+
+
+header{
+    background-color: #288D55;
+}
+header h1{
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+header p{
+    font-size: 1.3em;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+.nav a{
+   margin: 10px;
+   margin-top: 10px;
+   text-decoration: none;
+   font-size: 18px;
+   color: white;
+   transition-duration: 0.0s;
+}
+
+a:hover{
+    border-radius: 7px;
+    background-color: #84E1AD;
+    color: #266442;
+    font-size: 20px;
+    transition: 0.5s;
+    transform: 0.5s;
+}
+
+main{
+background-color: #FFFFFF;
+margin:auto;
+padding: 20px;
+min-width: 320px;
+max-width: 1000px;
+}
+
+img{
+   width:100%
+}
+
+.pequena{
+    display: block;
+    margin: auto;
+    max-width: 350px;
+}
+main h2{
+    color:#266442 ;
+}
+
+main h3{
+    margin: 15px;
+       color:#266442 ; 
+      background-image: linear-gradient(to right,#64ce92, transparent  );
+}
+main p{
+    margin: 15px 0px;
+    line-height: 2em;
+    font-size: 20px;
+    text-indent: 30px;
+}
+
+main a{
+    text-decoration: none;
+    font-weight:bold;
+    background-color:#64ce92;
+    color: #266442;   
+}
+
+main a:hover{
+text-decoration: underline;
+background-color: aqua;
+transition: 0s;
+}
+.video{
+    margin: -20px;
+    margin-top: 10px;
+    padding: 10px 30px;
+    background-color: #266442;
+}
+.saibaMais{
+    background-color:#C5EBD6 ;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.saibaMais h4{
+    background-color: #2DA162;
+    color: white;
+    margin:-15px;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+ul{
+    list-style-position: inside;
+   columns: 2;
+   list-style-type: '\2714\00a0';
+}
+.saibaMais p{
+    margin-top: 20px;
+}
+
+footer{
+    margin-top: 10px;
+    background-color: #266442;
+    color: white;
+    text-align: center;
+}
