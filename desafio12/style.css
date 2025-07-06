@@ -68,7 +68,7 @@ section{
     padding-bottom: 20px;
     background-color: rgb(39, 37, 37);
     color: white;
-       background-size: cover;
+    background-size: cover;
     background-attachment: fixed;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.418);
  }
@@ -81,7 +81,7 @@ section.Imagem > p{
  }
  #img01{
         background-image: url(../desafio12/imagens/background001.jpg);
-        background-position: right-center;
+        background-position: right center;
  }
 
  #img02{
