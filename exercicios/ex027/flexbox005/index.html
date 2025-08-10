@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexible Box</title>
+    <style>
+        .container{
+            background-color: salmon;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: stretch;
+            height: 400px;
+    
+        }
+        .item{
+            
+            background-color: lightblue;
+            border: 1px, solid, black;
+           text-align: center;
+            padding: 20px;
+        }
+        #i1{
+            order: 4;
+        }
+         #i2{
+            order: -4;
+            align-self: auto;
+        }
+         #i3{
+            order: 1;
+            align-self: flex-end;
+        }
+         #i4{
+            order: 0;
+        }
+         #i5{
+            order: -7;
+            align-self: center;
+        }
+         #i6{
+            order: 2;
+            align-self: flex-start;
+        }
+         #i7{
+            order: 9;
+            align-self: stretch;
+        }
+         #i8{
+            order:3;
+        }
+         #i9{
+            order: -1;
+        }
+         #i10{
+            order: 7;
+        }
+         #i11{
+            order: 5;
+        }
+         #i12{
+            order:-2;
+        }
+           #i13{
+            order:10;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="i1">A</div>
+        <div class="item" id="i2">B</div>
+        <div class="item" id="i3">C</div>
+        <div class="item" id="i4">D</div>
+        <div class="item" id="i5">E</div>
+        <div class="item" id="i6">F</div>
+        <div class="item" id="i7">G</div>
+        <div class="item" id="i8">I</div>
+        <div class="item" id="i9">J</div>
+        <div class="item" id="i10">K</div>
+        <div class="item" id="i11">L</div>
+        <div class="item" id="i12">M</div>
+        <div class="item" id="i13">N</div>
+    </div>
+</body>
+</html>
