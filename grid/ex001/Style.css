@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    border: 3px solid blue;
+    height: 250px;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows:repeat(3, auto);
+    gap: 10px; 
+ 
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red
+}
