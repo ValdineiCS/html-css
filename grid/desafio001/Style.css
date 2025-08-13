@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    color: blue;
+    display: grid;
+    grid-template-rows: 80px 40px 1fr 40px;
+    grid-template-columns: 1fr 400;
+    gap:5px;
+    border: 1px solid rgb(239, 171, 87);
+}
+
+.topo{
+    border: 1px dashed rosybrown;
+    background-color: rgba(230, 150, 2, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 1 / 1 / 1 / 5;
+}
+
+.menu{
+    border: 1px dashed rosybrown;
+    background-color: rgba(230, 150, 2, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 2/1/2/5;
+}
+
+.principal{
+    border: 1px dashed rosybrown;
+    background-color: rgba(230, 150, 2, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 3/1/4/4;
+}
+.secundario{
+    border: 1px dashed rosybrown;
+    background-color: rgba(230, 150, 2, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area:4/5/3/4;
+}
+
+.rodape{
+    border: 1px dashed rosybrown;
+    background-color: rgba(230, 150, 2, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 4/1/5/5;
+}
